@@ -1,0 +1,33 @@
+# Yaaddi
+
+> Yaaddi is a free spaced-repetition learning app for Android with ready-made courses, short questions, no ads and no account. Courses and progress stay on the phone.
+
+Get the app: https://play.google.com/store/apps/details?id=com.yaaddi.app
+
+## Help center
+
+- [Is Yaaddi free?](https://yaaddi.com/help/is-yaaddi-free/): Yes. Yaaddi is free on Google Play, has no ads and needs no account. The courses in the Course Library are free too.
+- [How to install a course in Yaaddi](https://yaaddi.com/help/install-a-course/): Open the Course Library from the Learn tab, find a course and tap Install. The course downloads to your phone and appears on the Learn tab, ready to study offline.
+- [How to import a course file into Yaaddi](https://yaaddi.com/help/import-a-course/): On the Learn tab, tap the three-dot menu, choose Import a course and pick a course file. Yaaddi accepts a course .json file or a course .zip file.
+- [How to create your own course in Yaaddi](https://yaaddi.com/help/create-a-course/): Tap the three-dot menu on the Learn tab, choose Create a course, give it a title and save it. Then add decks and manage their cards.
+- [How to organize, sort and delete courses in Yaaddi](https://yaaddi.com/help/organize-courses/): Use the three-dot menu on the Learn tab to make groups and sort courses, and the menu on each course card to move it to a group, edit it or delete it.
+- [How to skip what you already know in a Yaaddi course](https://yaaddi.com/help/skip-what-you-know/): Open the course map and tap the lightning button, labeled "What do you know?". Answer a few questions for about five minutes and Yaaddi marks the decks you know so you only study what is new.
+- [Question types in Yaaddi](https://yaaddi.com/help/question-types/): Yaaddi has 20 question types. You answer by choosing, ordering, matching, sorting, typing or filling in a blank, instead of flipping a card and grading yourself.
+- [What practice cards are and how to change them in Yaaddi](https://yaaddi.com/help/practice-cards/): Practice cards are extra questions linked to a main card. Yaaddi shows them when you learn a card for the first time and right after a wrong answer. You can tune both in Settings → Advanced learning options.
+- [How to change the spaced-repetition algorithm in Yaaddi](https://yaaddi.com/help/change-spaced-repetition-algorithm/): Go to Settings, open Advanced learning options and pick SM-2, Fibonacci, FSRS, ACT-R or HLR under Spaced repetition. Your progress is kept; cards become due again so they can pick up the new schedule.
+- [How to take a practice exam in Yaaddi](https://yaaddi.com/help/take-an-exam/): Open a course and tap Test yourself. Choose what to be tested on, the number of questions and an optional timer. You see your score, a per-deck breakdown and every correct answer only after you submit.
+- [How to report a mistake in a Yaaddi card](https://yaaddi.com/help/report-a-problem/): While studying, tap the three-dot menu and choose Report a problem. Pick a reason, add a note, and Yaaddi opens your email app with the report ready to send. Nothing is sent until you press send.
+- [How streaks, streak freezes and Coins work in Yaaddi](https://yaaddi.com/help/streaks-freezes-coins/): Your streak counts the days in a row you studied. A streak freeze covers a missed day. Coins go up by one for every correct answer and are never taken away.
+- [Where to see your progress and stats in Yaaddi](https://yaaddi.com/help/see-your-progress/): Open the Stats tab. It shows cards answered, accuracy, total Coins, days studied, your streaks and freezes, and charts of your progress over time. Each course has its own stats too.
+- [How to change dark mode, text size and sounds in Yaaddi](https://yaaddi.com/help/dark-mode-text-size-and-sound/): Open the Settings tab. Under Look and sound, choose System, Light or Dark for Appearance, use the minus and plus buttons for Text size, and switch Sound effects and Animations on or off.
+- [How to set a daily study reminder in Yaaddi](https://yaaddi.com/help/study-reminders/): In Settings, under Reminders, switch on Daily study reminder and choose a time. Yaaddi nudges you at that time on days you have not studied yet.
+- [How to back up Yaaddi and move it to a new phone](https://yaaddi.com/help/backup-and-restore/): On the Learn tab, tap the three-dot menu and choose Create backup. Save the file somewhere safe. On the new phone, open the same menu, choose Restore backup and pick the file.
+- [How to update a course in Yaaddi](https://yaaddi.com/help/update-a-course/): Open the Course Library, find Installed courses and tap Check for updates, then Update. Progress on cards that did not change is kept.
+- [How to share a course from Yaaddi](https://yaaddi.com/help/export-a-course/): Tap the three dots on a course card and choose Export. Yaaddi prepares a course file you can send to anyone. The shared file never includes your review progress.
+- [Does Yaaddi work offline?](https://yaaddi.com/help/use-offline/): Yes. After a course is installed, you can study it, take exams and track progress without a connection. Only the Course Library and course and app updates need the internet.
+- [Where does Yaaddi store my data, and is it private?](https://yaaddi.com/help/privacy-and-your-data/): Your courses, cards, progress, streaks, Coins and settings stay in a database on your phone. Yaaddi has no accounts, no ads, and no analytics or crash-reporting tools, and it does not read advertising IDs.
+
+## Other
+
+- [Courses](https://courses.yaaddi.com/): every free course with its list of decks
+- [Privacy](https://yaaddi.com/privacy/)

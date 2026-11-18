@@ -12,7 +12,7 @@ ICON = SRC / "icon.png"
 OUT = HERE / "assets" / "img"
 OUT.mkdir(parents=True, exist_ok=True)
 
-NAVY, GREEN, BG = (13, 47, 127), (22, 163, 74), (250, 250, 247)
+NAVY, GREEN, BG = (36, 43, 51), (22, 163, 74), (255, 255, 255)  # text, accent, background: the app palette
 
 icon = Image.open(ICON).convert("RGB")
 icon.resize((512, 512), Image.LANCZOS).save(OUT / "icon-512.png", optimize=True)

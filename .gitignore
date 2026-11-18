@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+
+# Local agent tooling (skill, task list): kept out of the public repo and the published site
+.claude/

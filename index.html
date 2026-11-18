@@ -8,10 +8,10 @@
   <link rel="canonical" href="https://yaaddi.com/">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="author" content="Mohammad Reza Mahdiani">
-  <meta name="theme-color" content="#0d2f7f" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0f1420" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111827" media="(prefers-color-scheme: dark)">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' https://www.googletagmanager.com https://*.google-analytics.com; script-src 'self' https://www.googletagmanager.com; connect-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; style-src 'self'; base-uri 'none'; form-action 'none'">
 
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
   <link rel="icon" type="image/png" sizes="192x192" href="assets/img/icon-192.png">
@@ -33,6 +33,7 @@
   <meta name="twitter:image" content="https://yaaddi.com/assets/img/og-image.png">
 
   <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/analytics.js" data-privacy="privacy/" defer></script>
 
   <script type="application/ld+json">
   {
@@ -129,9 +130,10 @@
       </a>
       <nav aria-label="Main">
         <a href="#features">Features</a>
-        <a href="#courses">Courses</a>
+        <a href="https://courses.yaaddi.com/" data-where="header" rel="noopener">Courses</a>
         <a href="#faq">FAQ</a>
-        <a class="btn btn-small" href="https://play.google.com/store/apps/details?id=com.yaaddi.app" rel="noopener">Get the app</a>
+        <a class="keep" href="help/">Help</a>
+        <a class="btn btn-small" href="https://play.google.com/store/apps/details?id=com.yaaddi.app" data-where="header" rel="noopener">Get the app</a>
       </nav>
     </div>
   </header>
@@ -143,8 +145,8 @@
           <h1>Yaaddi: a free spaced-repetition app with ready-made courses</h1>
           <p class="lead">Short questions, spaced-repetition reviews timed to help you remember, and courses you can follow from the first lesson. No ads. No account.</p>
           <p class="cta">
-            <a class="btn" href="https://play.google.com/store/apps/details?id=com.yaaddi.app" rel="noopener">Get it on Google Play</a>
-            <a class="btn btn-ghost" href="https://courses.yaaddi.com/" rel="noopener">Browse the courses</a>
+            <a class="btn" href="https://play.google.com/store/apps/details?id=com.yaaddi.app" data-where="hero" rel="noopener">Get it on Google Play</a>
+            <a class="btn btn-ghost" href="https://courses.yaaddi.com/" data-where="hero" rel="noopener">Browse the courses</a>
           </p>
           <ul class="facts" aria-label="At a glance">
             <li>Free</li>
@@ -178,7 +180,7 @@
           </article>
           <article class="card">
             <h3>Private and offline</h3>
-            <p>No account, no ads, no tracking. Your courses and progress live on your phone, and installed courses work without a connection.</p>
+            <p>No account and no ads. Your courses and progress live on your phone, and installed courses work without a connection.</p>
           </article>
           <article class="card">
             <h3>Make it yours</h3>
@@ -214,45 +216,47 @@
 
     <section id="courses" class="section">
       <div class="wrap">
-        <h2>Courses you can start today</h2>
-        <p class="section-lead">More than two dozen free courses, and more on the way. Browse what is inside each one before you install.</p>
-        <div class="columns">
-          <div>
-            <h3>AI and software</h3>
-            <ul class="plain">
-              <li><a href="https://courses.yaaddi.com/courses/ai-at-work/" rel="noopener">AI at Work</a></li>
-              <li><a href="https://courses.yaaddi.com/courses/ai-model-optimization/" rel="noopener">Optimizing AI Models for Inference</a></li>
-              <li><a href="https://courses.yaaddi.com/courses/mlops/" rel="noopener">MLOps</a></li>
-              <li><a href="https://courses.yaaddi.com/courses/git/" rel="noopener">Git</a></li>
-              <li><a href="https://courses.yaaddi.com/courses/docker-and-containers/" rel="noopener">Docker and Containers</a></li>
-              <li><a href="https://courses.yaaddi.com/courses/kubernetes-fundamentals/" rel="noopener">Kubernetes Fundamentals</a></li>
-              <li><a href="https://courses.yaaddi.com/courses/python-basics/" rel="noopener">Python Basics</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3>Work and career</h3>
-            <ul class="plain">
-              <li><a href="https://courses.yaaddi.com/courses/managing-software-projects/" rel="noopener">Managing Software Projects</a></li>
-              <li><a href="https://courses.yaaddi.com/courses/job-interview-skills/" rel="noopener">Job Interview Skills</a></li>
-              <li><a href="https://courses.yaaddi.com/courses/emotional-intelligence/" rel="noopener">Emotional Intelligence</a></li>
-              <li><a href="https://courses.yaaddi.com/courses/effective-vibecoding/" rel="noopener">Effective Vibecoding</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3>Everyday life</h3>
-            <ul class="plain">
-              <li><a href="https://courses.yaaddi.com/courses/scam-fraud-recognition/" rel="noopener">Scam &amp; Fraud Recognition</a></li>
-              <li><a href="https://courses.yaaddi.com/courses/canadian-citizenship/" rel="noopener">Canadian Citizenship</a></li>
-              <li><a href="https://courses.yaaddi.com/courses/ontario-g1-drivers-licence/" rel="noopener">Ontario G1 Driver's Licence</a></li>
-              <li><a href="https://courses.yaaddi.com/courses/fix-common-english-mistakes/" rel="noopener">Fix Common English Mistakes</a></li>
-            </ul>
-          </div>
-        </div>
-        <p><a class="btn btn-ghost" href="https://courses.yaaddi.com/" rel="noopener">See all courses</a></p>
+        <h2>Free courses, ready to install</h2>
+        <p class="section-lead">Browse every course, see what is inside each one, and install it in the app in one tap.</p>
+        <p><a class="btn" href="https://courses.yaaddi.com/" data-where="courses-section" rel="noopener">Browse all courses</a></p>
       </div>
     </section>
 
-    <section class="section alt" aria-labelledby="why">
+    <section id="help" class="section alt" aria-labelledby="help-title">
+      <div class="wrap">
+        <h2 id="help-title">Help: how to do things in Yaaddi</h2>
+        <p class="section-lead">Step-by-step guides written from the app itself. Find the setting, the menu or the answer you need.</p>
+        <div class="columns">
+          <div>
+            <h3>Get started</h3>
+            <ul class="plain">
+              <li><a href="help/install-a-course/">How to install a course</a></li>
+              <li><a href="help/create-a-course/">How to create your own course</a></li>
+              <li><a href="help/import-a-course/">How to import a course file</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Study</h3>
+            <ul class="plain">
+              <li><a href="help/change-spaced-repetition-algorithm/">Change the spaced-repetition algorithm</a></li>
+              <li><a href="help/skip-what-you-know/">Skip what you already know</a></li>
+              <li><a href="help/take-an-exam/">Take a practice exam</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Settings and data</h3>
+            <ul class="plain">
+              <li><a href="help/study-reminders/">Set a daily study reminder</a></li>
+              <li><a href="help/backup-and-restore/">Back up and move to a new phone</a></li>
+              <li><a href="help/streaks-freezes-coins/">How streaks and Coins work</a></li>
+            </ul>
+          </div>
+        </div>
+        <p><a class="btn btn-ghost" href="help/">Open the Help Center</a></p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="why">
       <div class="wrap narrow">
         <h2 id="why">Why Yaaddi exists</h2>
         <p>Yaaddi started as a tool for one person. Its maker, Mohammad Reza Mahdiani, PhD, is a software engineer and the author of <em>Mastering Machine Learning Architecture and Solutions</em> (Apress, 2026). He needed to keep learning new technology for his work, and none of the apps he tried did everything he wanted: courses from zero, real questions instead of flipping cards, no ads, and no need for a connection or an account. So he built one, made a course for himself, and then shared it for free so others could have the same experience.</p>
@@ -260,7 +264,7 @@
       </div>
     </section>
 
-    <section id="faq" class="section">
+    <section id="faq" class="section alt">
       <div class="wrap narrow">
         <h2>Questions</h2>
         <details>
@@ -294,7 +298,7 @@
       <div class="wrap">
         <h2>Start learning with Yaaddi</h2>
         <p>Free on Google Play. No ads, no account.</p>
-        <p><a class="btn" href="https://play.google.com/store/apps/details?id=com.yaaddi.app" rel="noopener">Get it on Google Play</a></p>
+        <p><a class="btn" href="https://play.google.com/store/apps/details?id=com.yaaddi.app" data-where="final" rel="noopener">Get it on Google Play</a></p>
       </div>
     </section>
   </main>
@@ -303,10 +307,11 @@
     <div class="wrap foot">
       <p>&copy; 2026 Yaaddi. Built by <a href="https://www.linkedin.com/in/mohammad-reza-mahdiani/" rel="noopener me">Mohammad Reza Mahdiani</a>.</p>
       <nav aria-label="Footer">
-        <a href="https://courses.yaaddi.com/" rel="noopener">Courses</a>
-        <a href="https://courses.yaaddi.com/privacy/" rel="noopener">Privacy</a>
+        <a href="help/">Help</a>
+        <a href="https://courses.yaaddi.com/" data-where="footer" rel="noopener">Courses</a>
+        <a href="privacy/">Privacy</a>
         <a href="https://courses.yaaddi.com/terms/" rel="noopener">Terms</a>
-        <a href="mailto:support@yaaddi.com">Contact</a>
+        <a href="mailto:support@yaaddi.com" data-where="footer">Contact</a>
       </nav>
       <p class="small">Google Play is a trademark of Google LLC. Yaaddi is not affiliated with or endorsed by Google.</p>
     </div>
