@@ -36,7 +36,7 @@ Pushing to `main` publishes the site through GitHub Pages (Settings â†’ Pages â†
 
 In Porkbun, open the `yaaddi.com` DNS records and:
 
-1. Delete the existing records for the bare domain (host blank) that point at Porkbun's parking page.
+1. Delete only the existing web records for the bare domain (host blank): the A or ALIAS record that points at Porkbun's parking page. **Keep the MX and TXT records.** They run the `support@yaaddi.com` email forwarding and its SPF record.
 2. Add these four **A** records, host blank:
    `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
 3. Optional **AAAA** records, host blank:
