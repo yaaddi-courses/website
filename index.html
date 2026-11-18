@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yaaddi – Free Learning App with Ready-Made Courses</title>
-  <meta name="description" content="Yaaddi is a free learning app with ready-made courses, short questions and reviews timed to help you remember. No ads, no account. Get it on Google Play.">
+  <title>Yaaddi – Free Spaced-Repetition Learning App</title>
+  <meta name="description" content="Yaaddi is a free spaced-repetition learning app with ready-made courses and short questions. No ads, no account. Get it on Google Play.">
   <link rel="canonical" href="https://yaaddi.com/">
   <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="Mohammad Reza Mahdiani">
   <meta name="theme-color" content="#0d2f7f" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0f1420" media="(prefers-color-scheme: dark)">
   <meta name="referrer" content="strict-origin-when-cross-origin">
@@ -18,7 +19,8 @@
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Yaaddi">
-  <meta property="og:title" content="Yaaddi – Free Learning App with Ready-Made Courses">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Yaaddi – Free Spaced-Repetition Learning App">
   <meta property="og:description" content="Short questions, reviews timed to help you remember, and courses you can follow from the first lesson. No ads, no account.">
   <meta property="og:url" content="https://yaaddi.com/">
   <meta property="og:image" content="https://yaaddi.com/assets/img/og-image.png">
@@ -26,7 +28,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Yaaddi logo with the text: Free learning app with ready-made courses">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Yaaddi – Free Learning App with Ready-Made Courses">
+  <meta name="twitter:title" content="Yaaddi – Free Spaced-Repetition Learning App">
   <meta name="twitter:description" content="Short questions, reviews timed to help you remember, and courses you can follow from the first lesson. No ads, no account.">
   <meta name="twitter:image" content="https://yaaddi.com/assets/img/og-image.png">
 
@@ -45,7 +47,7 @@
         "publisher": { "@id": "https://yaaddi.com/#author" }
       },
       {
-        "@type": "SoftwareApplication",
+        "@type": ["SoftwareApplication", "MobileApplication"],
         "@id": "https://yaaddi.com/#app",
         "name": "Yaaddi",
         "url": "https://yaaddi.com/",
@@ -138,8 +140,8 @@
     <section class="hero">
       <div class="wrap hero-grid">
         <div class="hero-copy">
-          <h1>Yaaddi: a free learning app with ready-made courses</h1>
-          <p class="lead">Short questions, reviews timed to help you remember, and courses you can follow from the first lesson. No ads. No account.</p>
+          <h1>Yaaddi: a free spaced-repetition app with ready-made courses</h1>
+          <p class="lead">Short questions, spaced-repetition reviews timed to help you remember, and courses you can follow from the first lesson. No ads. No account.</p>
           <p class="cta">
             <a class="btn" href="https://play.google.com/store/apps/details?id=com.yaaddi.app" rel="noopener">Get it on Google Play</a>
             <a class="btn btn-ghost" href="https://courses.yaaddi.com/" rel="noopener">Browse the courses</a>
@@ -151,8 +153,8 @@
             <li>Your data stays on your phone</li>
           </ul>
         </div>
-        <div class="hero-shots" aria-hidden="false">
-          <img class="shot" src="assets/img/shot-course-map.webp" width="480" height="1039" alt="A Yaaddi course shown as a map of lessons, starting with What AI Really Means">
+        <div class="hero-shots">
+          <img class="shot" src="assets/img/shot-course-map.webp" width="480" height="1039" fetchpriority="high" decoding="async" alt="A Yaaddi course shown as a map of lessons, starting with What AI Really Means">
         </div>
       </div>
     </section>
@@ -171,7 +173,7 @@
             <p>Twenty question types, from multiple choice to put-in-order, match-the-pairs and fill-in-the-code. You test yourself instead of tapping through cards.</p>
           </article>
           <article class="card">
-            <h3>Reviews timed for memory</h3>
+            <h3>Spaced-repetition reviews</h3>
             <p>Choose the schedule that suits you: SM-2, FSRS, ACT-R, HLR or Fibonacci. Get a question wrong and related practice cards drill the idea right away.</p>
           </article>
           <article class="card">
@@ -195,15 +197,15 @@
         <h2 id="see">See it in action</h2>
         <div class="shots">
           <figure>
-            <img src="assets/img/shot-library.webp" width="480" height="1039" loading="lazy" alt="Yaaddi's course library with a search box and installable courses">
+            <img src="assets/img/shot-library.webp" width="480" height="1039" loading="lazy" decoding="async" alt="Yaaddi's course library with a search box and installable courses">
             <figcaption>Install a course in one tap</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/shot-course-map.webp" width="480" height="1039" loading="lazy" alt="A Yaaddi course shown as a map of lessons, starting with What AI Really Means">
+            <img src="assets/img/shot-course-map.webp" width="480" height="1039" loading="lazy" decoding="async" alt="A Yaaddi course shown as a map of lessons, starting with What AI Really Means">
             <figcaption>Follow the course map</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/shot-question.webp" width="480" height="1039" loading="lazy" alt="A true or false question in Yaaddi with the correct answer highlighted">
+            <img src="assets/img/shot-question.webp" width="480" height="1039" loading="lazy" decoding="async" alt="A true or false question in Yaaddi with the correct answer highlighted">
             <figcaption>Answer and get instant feedback</figcaption>
           </figure>
         </div>
@@ -253,7 +255,7 @@
     <section class="section alt" aria-labelledby="why">
       <div class="wrap narrow">
         <h2 id="why">Why Yaaddi exists</h2>
-        <p>Yaaddi started as a tool for one person. Mohammad Reza Mahdiani needed to keep learning new technology for his work, and none of the apps he tried did everything he wanted: courses from zero, real questions instead of flipping cards, no ads, and no need for a connection or an account. So he built one, made a course for himself, and then shared it for free so others could have the same experience.</p>
+        <p>Yaaddi started as a tool for one person. Its maker, Mohammad Reza Mahdiani, PhD, is a software engineer and the author of <em>Mastering Machine Learning Architecture and Solutions</em> (Apress, 2026). He needed to keep learning new technology for his work, and none of the apps he tried did everything he wanted: courses from zero, real questions instead of flipping cards, no ads, and no need for a connection or an account. So he built one, made a course for himself, and then shared it for free so others could have the same experience.</p>
         <p>If you want a course on a subject that is missing, or you find a mistake, <a href="mailto:support@yaaddi.com">tell us</a>. The next course could be yours.</p>
       </div>
     </section>

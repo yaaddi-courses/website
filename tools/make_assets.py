@@ -1,16 +1,14 @@
 """Regenerate the site's images from the app's source assets.
 
 Run from the Website folder:  python tools/make_assets.py
-Needs Pillow. Reads the app icon and the screenshots listed below; writes to assets/img/.
-Only the generated files are committed, so the site repo needs none of the sources.
+Needs Pillow. Reads the source images in tools/source/ and writes to assets/img/.
 """
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 HERE = Path(__file__).resolve().parent.parent
-YAADDI = HERE.parent
-ICON = YAADDI / "app" / "assets" / "icon.png"
-SHOTS = Path("D:/MRM/ai/MKT/Posts/001-text-yaaddi-introduction/screenshots")
+SRC = HERE / "tools" / "source"
+ICON = SRC / "icon.png"
 OUT = HERE / "assets" / "img"
 OUT.mkdir(parents=True, exist_ok=True)
 
@@ -39,10 +37,10 @@ d.text((514, 470), "No ads. No account. Works offline.", font=font("segoeuisb.tt
 card.save(OUT / "og-image.png", optimize=True)
 
 # Screenshots -> webp, 480 wide
-for src, dst in [("02-course-library.png", "shot-library.webp"),
-                 ("04-course-map.png", "shot-course-map.webp"),
-                 ("06-answer-feedback.png", "shot-question.webp")]:
-    im = Image.open(SHOTS / src).convert("RGB")
+for src, dst in [("library.png", "shot-library.webp"),
+                 ("course-map.png", "shot-course-map.webp"),
+                 ("question.png", "shot-question.webp")]:
+    im = Image.open(SRC / src).convert("RGB")
     h = round(im.height * 480 / im.width)
     im.resize((480, h), Image.LANCZOS).save(OUT / dst, quality=82, method=6)
     print(dst, 480, h)
