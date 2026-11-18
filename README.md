@@ -22,7 +22,7 @@ Courses live in a separate site: [courses.yaaddi.com](https://courses.yaaddi.com
 python -m http.server 8765 --bind 127.0.0.1
 ```
 
-Open <http://127.0.0.1:8765/>. Paths in the page start with `/`, so serve the folder as the site root.
+Open <http://127.0.0.1:8765/>. You can also open `index.html` directly in a browser: the page uses relative paths, so it works both ways. Only `404.html` uses root paths (`/assets/...`), because it is served from any URL depth on the live site.
 
 When the page content changes, update `lastmod` in `sitemap.xml`. If the FAQ text changes, change the matching `FAQPage` entries in the JSON-LD in `index.html`; Google expects the structured data to match what visitors see.
 
